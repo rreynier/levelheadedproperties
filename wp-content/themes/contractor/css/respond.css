@@ -1,0 +1,566 @@
+/*------------------------------*/
+/*-----------1310px------------*/
+/*----------------------------*/
+@media screen and (max-width:1310px) {
+	
+	
+	/*--SIDEBAR--*/
+	#sidebar {
+		margin: 0; 
+		padding: 60px 5%; 
+		left: 0;
+	}
+	#sidebar .widget {
+		width: 30%;
+	}
+	#sidebar .widget:nth-child(4n+1) {
+		clear:inherit; 
+		margin-left:5%;
+	}
+	#sidebar .widget:nth-child(3n+1),
+	#sidebar .widget:nth-child(6n+1),
+	#sidebar .widget:nth-child(9n+1) {
+		clear: left; 
+		margin-left: 0;
+	}
+	
+	
+	/*--MAP WRAPPER--*/
+	#mapWrapper {
+		height: 500px;
+	}
+}
+
+
+/*-----------------------------*/
+/*-----------960px------------*/
+/*---------------------------*/
+@media screen and (max-width:960px) {
+	
+	
+	/*--HEADER--*/
+	#header {
+		padding: 5% 5% 10%;
+	}
+	
+	
+	/*--CONTENT--*/
+	#content {
+		padding: 5%;
+	}
+	
+	
+	/*--TOP CONTENT STUFF--*/
+	#topContentStuff {
+		margin-bottom: 5%;
+	}
+	#menusContainer {
+		float: none; 
+		width: auto; 
+		display: none; 
+		padding:5% 0;
+	}
+	#menusContainer:after {
+		content: ''; 
+		clear: both; 
+		display: block;
+	}
+	#menuToggle {
+		display: block;
+	}
+	
+	
+	/*--TITLE INFO--*/
+	#title-info {
+		float: none; 
+		width: auto; 
+		margin-top: 5%; 
+		clear: both;
+	}
+	
+	
+	/*--NAVIGATION--*/
+	.navigation {
+		padding-top: 5%;
+	}
+	
+	
+	/*--GALLERY--*/
+	.gallery {
+	    margin: 0 !important;
+	    position: relative;
+	    padding: 30px 0;
+	}
+	
+	
+	/*--COLUMN STUFF--*/
+	#pageWidgets,
+	.entry {
+		-webkit-column-count:1 !important;
+		-moz-column-count:1 !important;
+		column-count:1 !important;
+	}
+	
+	
+	/*--NAVIGATION--*/
+	#navigation {
+		left: 0;
+		margin-left: 0 !important;
+		width: 100%;
+	}
+	#navigation a {
+		width: 48%;
+	}
+		
+		
+	/*--STICKY POSTS--*/
+	.nextPrevItem,
+	.nextPrevItem:hover {
+		background-size: cover;
+	}
+	
+	
+	/*--MAP WRAPPER--*/
+	#mapWrapper {
+		height: 400px;
+	}
+}
+
+
+/*-----------------------------*/
+/*-----------900px------------*/
+/*---------------------------*/
+@media screen and (max-width:900px) {
+
+
+	/*--SIDEBAR--*/
+	#sidebar .widget {
+		margin: 0 0 60px 0; 
+		width: 100%; 
+		float: none; 
+	}
+	#sidebar .widget:nth-child(4n+1) {
+		margin-left: 0;
+	}
+	
+	
+	/*--SINGLE STANDARD POST--*/
+	body.single .format-standard {
+		padding-top: 30px;
+	}
+	
+	
+	/*--PAGE CONTENT--*/
+	#pageContent {
+		padding-top: 30px; 
+		margin-top: 30px;
+	}
+	
+	
+	/*--POST LISTING CONTAINER--*/
+	.postsContainer {
+		padding-top: 10px;
+	}
+	
+	
+	/*--MARGIN TOP STUFF--*/
+	#mapWrapper,
+	.postinate {
+		margin-top: 30px;
+	}
+	
+	
+	/*--FULL SCREEN MAP--*/
+	body.full-map #mapWrapper {
+		margin-top: 0;
+	}
+	
+	
+	/*--POST LISTING DIV POSITION--*/
+	.postsContainer > div {
+		margin:0 0 30px 5%; 
+		font-size: 14px; 
+		width: 47.5%; 
+		float: left;
+	}
+	.postsContainer > div:nth-child(3n+1) {
+		clear: none; 
+		margin-left:5%;
+	}
+	.postsContainer > div:nth-child(2n+1),
+	.postsContainer > div:nth-child(4n+1),
+	.postsContainer > div:nth-child(6n+1),
+	.postsContainer > div:nth-child(8n+1) {
+		clear: left; 
+		margin-left: 0;
+	}
+	
+	
+	/*--DETAILS--*/
+	#details {
+		margin-top: 30px; 
+		padding: 30px 0 15px;
+	}
+	
+	
+	/*--FOOTER--*/
+	#footer {
+		margin:30px 0 0; 
+		text-align:center;
+	}
+	#footerMenuContainer {
+		float: none; 
+		text-align: center; 
+		margin-bottom: 5px;
+	}
+	
+	
+	/*--MAP LIST STUFF--*/
+	#list-item-toggle.list-open  {
+		right: 50%;
+	}
+	#loc-list.list-open {
+		width: 50%;
+	}
+}
+
+
+/*-----------------------------*/
+/*-----------700px------------*/
+/*---------------------------*/
+@media screen and (max-width:700px) {
+
+
+	/*--LOGO/CONTACT STUFF--*/
+	#logo {
+		max-width: 50%
+	}
+	#contactInfo:before {
+		width: 45px; 
+		margin: 15px 0;
+	}
+	#contactInfo {
+		font-size: 11px;
+	}	
+}
+
+
+/*-----------------------------*/
+/*-----------650px------------*/
+/*---------------------------*/
+@media screen and (max-width:650px) {
+	
+	
+	/*--HEADER STUFF--*/
+	#widgetPanelToggle {
+		display: block;
+		float: none;
+		position: absolute;
+		top: 10%;
+		right: 5%;
+	}
+	#header #searchform {
+		float: none;
+		margin: 0;	
+	    position: absolute;
+	    right: 60px;
+	    top: 10%;
+	    z-index: 2;
+	}
+	
+	
+	/*--WIDGET PANEL OPEN STUFF--*/
+	body.panelOpen #logo,
+	body.panelOpen #contactInfo {
+		visibility: hidden;
+	}
+	body.panelOpen #header #searchform {
+		right: 65px;
+	}
+	
+	
+	/*--SIDEBAR STUFF--*/
+	#widgetPanel {
+		top: 60px !important;
+	}
+	#sidebar {
+		top:0; 
+		border: none;
+	}
+	
+	
+	/*--POST LISTING DIV STUFF--*/
+	.postsContainer > div {
+		margin:0 0 30px 0; 
+		font-size: 14px; 
+		width: 100%; 
+		float: none;
+	}
+	.postsContainer > div:nth-child(3n+1) {
+		clear: none; 
+		margin-left: 0;
+	}
+	
+	
+	/*--MAP STUFF--*/
+	body.full-map #mapWrapper {
+		height: 250px; 
+		position: relative;
+	}
+	#full-map-toggle {
+		display: none;
+	}
+	
+	
+	/*--POST FILTER--*/
+	#postFilter {
+		padding: 20px 0 0; 
+		margin-bottom: 20px;
+	}
+	#postFilter a {
+		margin: 0 5px; 
+		padding: 0;
+	}
+	
+}
+
+
+/*-----------------------------*/
+/*-----------500px------------*/
+/*---------------------------*/
+@media screen and (max-width:500px) {
+	
+	
+	/*--SIDEBAR--*/
+	#sidebar {
+		padding: 5%;
+	}
+	
+	
+	/*--MENU CONTAINER--*/
+	.menuContainer {
+		float: none; 
+		margin: 0; 
+		width: 100%;
+	}
+
+
+	/*--WIDGET BUTTON--*/
+	#widgetPanelToggle {
+		margin-bottom: 5%;
+	}
+	
+	
+	/*--LOGO--*/
+	#logo {
+		display: block;
+	}
+	
+	
+	/*--GALLERY STUFF--*/
+	body.single-format-gallery .gallery .gallery-item {
+		margin-top: 10px !important;
+	}
+	.gallery {
+		padding:0 0 10px;
+	}
+	.gallery-item {
+		width: 33.3% !important;
+	}
+	.gallery .gallery-caption {
+		font-size: 12px;
+	}
+	
+	
+	/*--MAP STUFF--*/
+	#mapWrapper {
+		height: 250px; 
+		margin-bottom: 30px;
+	}
+	#locationDetails {
+		width: 300px; 
+		margin:0 0 30px -150px; 
+	}
+	.loc-item h3 {
+		font-size: 110%;
+	}
+	#list-item-toggle.list-open  {
+		right: 75%;
+	}
+	#loc-list.list-open {
+		width: 75%;
+	}	
+	
+	/*--NAVIGATION--*/
+	#navigation a {
+		font-size: 14px;
+	}
+}
+
+
+/*-----------------------------*/
+/*-----------400px------------*/
+/*---------------------------*/
+@media screen and (max-width:400px) {
+	
+	
+	/*--HEADER--*/
+	#header {
+		padding: 5%;
+	}
+	
+	
+	/*--LOGO--*/
+	#logo {
+		max-width: 50%;
+	}
+	
+	
+	/*--SEARCH STUFF--*/
+	#searchform #s {
+		width: 220px;
+	}
+	
+	
+	/*--LOADING STUFF--*/
+	#pageLoading {
+		background-position: center 100px;
+	}
+	
+	
+	/*--GALLERY STUFF--*/
+	.gallery:after {
+		content: ''; 
+		display: block; 
+		clear: both; 
+		width: 100%; 
+		margin-bottom: 10px;
+	}
+	.gallery-item {
+		width: 50% !important;
+	}
+	.gallery br {
+		clear: none !important;
+	}
+	.gallery .gallery-caption {
+		font-size: 10px;
+	}
+	
+	
+	/*--ATTACHMENT GALLERY--*/
+	#attachmentGallery li {
+		width: 100%; 
+		float: none; 
+		margin-left: 0;
+	}
+	#attachmentGallery p {
+    	left: 0;
+    	opacity: 1;
+    	padding: 5px 0 10px;
+    	position: relative;
+    	color: #333;
+	}
+	
+	
+	/*--FEATIRED IMAGE STUFF--*/
+	.featuredLink.hasGallery:hover:before {
+		background: none;
+	}
+	.featuredLink.hasGallery > img {
+		left: -33.3%;
+	}
+	.featuredLink.hasGallery .postPrev {
+		right: 0;
+	}
+	.postsContainer div.format-gallery .featuredLink span {
+    	color: #333;
+	    font-size: 15px;
+	    left: 0;
+	    opacity: 1;
+	    padding: 3% 0;
+	    position: relative;
+	    width: auto;
+	}
+	
+	
+	/*--QUOTE STUFF--*/
+	.quote-content {
+		max-height: 120px;
+	}
+	
+	
+	/*--DETAILS--*/
+	#details li {
+		margin: 0 10px 15px; 
+		display: block;
+	}
+	
+		
+	/*--BLOCKQUOTE--*/
+	blockquote {
+		padding:15px 20px 5px; 
+	}
+	
+	
+	/*--COMMENT STUFF--*/
+	.commentlist p {
+		margin: 10px 0 0 20px;
+	}
+	#commentsection .children {
+		margin-left: 20px;
+	}
+	#commentsection .parent:before {
+		left: 0;
+	}
+	#commentsection .children > li:after {
+		left: -20px;
+	}
+	.commentlist #respond {
+		margin: 10px 0 20px 20px;
+	}
+	
+	
+	/*--NAVIGATION--*/
+	#navigation {
+		padding: 30px 0; 
+		margin: 0;
+	}
+	
+	
+	/*--LOCATION DETAILS--*/
+	#locationDetails {
+		width: 240px; 
+		margin-left: -120px;
+	}
+	#locationDetails h3 {
+		font-size: 100%;
+	}
+	#locationDetails .infoBox {
+		padding: 25px;
+	}
+	
+	
+	/*--FOOTER STUFF--*/
+	#footer {
+		margin:30px 0 15px;
+	}
+	#footerMenu li:before {
+		padding: 0 7px 0 4px;
+	}
+	
+	
+	/*--STICKY POST STUFF--*/
+	body.with-sticky-post #contentContainer {
+		margin-bottom: 250px;
+	}
+	#stickyPosts,
+	.nextPrevItem {
+		height: 250px;
+	}
+	.nextPrevItem p {
+		font-size: 100%;
+	}
+	.nextPrevItem span {
+		font-size: 80%;
+	}
+}

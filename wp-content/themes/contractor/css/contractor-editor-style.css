@@ -1,0 +1,20 @@
+body#tinymce.wp-editor { 
+    font-family:'open sans',Sans-Serif; 
+    color:#555;
+}
+
+body#tinymce.wp-editor a {
+    color: #0065B5;
+}
+
+body#tinymce.wp-editor h1, 
+body#tinymce.wp-editor h2,
+body#tinymce.wp-editor h3, 
+body#tinymce.wp-editor h4,
+body#tinymce.wp-editor h5,
+body#tinymce.wp-editor h6 {
+	margin-bottom: 15px;
+}
+
+body#tinymce.wp-editor .alignright {margin:0 0 20px 20px;}
+body#tinymce.wp-editor .alignleft {margin:0 20px 20px 0;}

@@ -1,0 +1,176 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Contractor\n"
+"POT-Creation-Date: 2012-10-20 00:26-0800\n"
+"PO-Revision-Date: 2012-10-20 00:26-0800\n"
+"Last-Translator: Chris <chris@themolitor.com>\n"
+"Language-Team: The Molitor\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../archive.php:41
+msgid "All Items"
+msgstr ""
+
+#: ../archive.php:43
+msgid "Show only"
+msgstr ""
+
+#: ../archive.php:43
+msgid "items"
+msgstr ""
+
+#: ../archive.php:46
+msgid "Show only Pages"
+msgstr ""
+
+#: ../archive.php:46 ../site-map.php:9
+msgid "Pages"
+msgstr ""
+
+#: ../archive.php:100
+msgid "Visit Site"
+msgstr ""
+
+#: ../comments.php:7
+msgid "Comments"
+msgstr ""
+
+#: ../comments.php:8
+msgid "This post is password protected. Enter the password above to view or leave a comment."
+msgstr ""
+
+#: ../comments.php:13
+msgid "No Comments"
+msgstr ""
+
+#: ../comments.php:13
+msgid "1 Comment"
+msgstr ""
+
+#: ../comments.php:13
+msgid "% Comments"
+msgstr ""
+
+#: ../header.php:137
+msgid "MENU"
+msgstr ""
+
+#: ../header.php:171
+msgid "Page Not Found"
+msgstr ""
+
+#: ../header.php:171
+msgid "Error 404"
+msgstr ""
+
+#: ../header.php:172
+msgid "We recommend (1) double-checking the page URL, (2) searching the site using keywords, or (3) using the site map below..."
+msgstr ""
+
+#: ../header.php:185
+msgid "Search Results"
+msgstr ""
+
+#: ../header.php:187 ../header.php:189
+msgid "Your search for"
+msgstr ""
+
+#: ../header.php:187
+msgid "returned"
+msgstr ""
+
+#: ../header.php:189
+msgid "returned 0 items. Try again?"
+msgstr ""
+
+#: ../header.php:207
+msgid "This subject has"
+msgstr ""
+
+#: ../header.php:207
+msgid "assigned..."
+msgstr ""
+
+#: ../header.php:209
+msgid "This subject currently has no items."
+msgstr ""
+
+#: ../location-map-widgets.php:13 ../location-map.php:13
+msgid "Previous Location"
+msgstr ""
+
+#: ../location-map-widgets.php:14 ../location-map.php:14
+msgid "Next Location"
+msgstr ""
+
+#: ../location-map-widgets.php:15 ../location-map.php:15
+msgid "Toggle Map Size"
+msgstr ""
+
+#: ../location-map-widgets.php:16 ../location-map.php:16
+msgid "Toggle List Items"
+msgstr ""
+
+#: ../location-script.php:39
+msgid "View all %s items"
+msgstr ""
+
+#: ../searchform.php:2
+msgid "Search Site..."
+msgstr ""
+
+#: ../single.php:32
+msgid "Date:"
+msgstr ""
+
+#: ../single.php:33
+msgid "Location:"
+msgstr ""
+
+#: ../single.php:34
+msgid "Category:"
+msgstr ""
+
+#: ../single.php:35
+msgid "Tags:"
+msgstr ""
+
+#: ../site-map.php:4
+msgid "Categories"
+msgstr ""
+
+#: ../site-map.php:14
+msgid "Archives"
+msgstr ""
+
+#: ../site-map.php:21
+msgid "Last 100 Items"
+msgstr ""
+
+#: ../sticky-posts.php:21
+msgid "Prev"
+msgstr ""
+
+#: ../sticky-posts.php:21 ../sticky-posts.php:34 ../sticky-posts.php:77
+msgid "Item"
+msgstr ""
+
+#: ../sticky-posts.php:21
+msgid "Next"
+msgstr ""
+
+#: ../sticky-posts.php:77
+msgid "Featured"
+msgstr ""
+
+#: ../sticky-posts.php:77
+msgid "Latest"
+msgstr ""
